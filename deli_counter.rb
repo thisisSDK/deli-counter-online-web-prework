@@ -25,3 +25,11 @@ def now_serving(katz_deli)
     katz_deli.shift
   end
 end
+
+  counter = 0 
+
+def take_a_number(katz_deli)
+  counter += 1 
+  katz_deli << counter(1)
+  puts "Welcome. You are number #{katz_deli.length} in line."
+end
