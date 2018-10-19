@@ -27,7 +27,6 @@ def now_serving(katz_deli)
 end
 ##### testing
   counter = 0 
-
 def take_a_number(katz_deli)
   counter += 1 
   katz_deli << counter
